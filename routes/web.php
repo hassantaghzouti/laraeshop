@@ -65,6 +65,10 @@ Route::post('/order_confirmation2', [
     'middleware' => 'auth'
 ]); 
 
+
+
+
+
 //route group
 Route::group(['prefix'=> 'user'],function(){
     Route::group(['middleware'=> 'guest'],function(){
